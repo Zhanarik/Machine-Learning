@@ -21,9 +21,9 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - Residual analysis and assumption checks  
    - Handling multicollinearity (VIF, feature engineering)  
    - Model evaluation: R², Adjusted R², MAE, MSE, AIC, BIC  
-   - Comparison of original vs improved models  
+   - Comparison of original vs improved model example  
 
-*(More topics coming soon, including Logistic Regression, Decision Trees, Random Forests, Gradient Boosting, Neural Networks, and more!)*  
+*(More topics coming soon, including Gradient Descent, PCA, Regularization Techniques, Logistic Regression, Decision Trees, Random Forests, Gradient Boosting, Neural Networks, and more!)*  
 
 ---
 ## ✨ Note to Users
