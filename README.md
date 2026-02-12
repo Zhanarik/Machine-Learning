@@ -21,7 +21,17 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - Residual analysis and assumption checks  
    - Handling multicollinearity (VIF, feature engineering)  
    - Model evaluation: R², Adjusted R², MAE, MSE, AIC, BIC  
-   - Comparison of original vs improved model example  
+   - Comparison of original vs improved model example
+  
+2. **Logistic Regression: From Log-Odds to Optimization and Regularization**
+   - Mathematical foundations (GLM, odds, logit, sigmoid)
+   - Log loss (cross-entropy) and convexity proof
+   - Gradient descent intuition and LBFGS optimization
+   - Effect of feature scaling on convergence
+   - L1 vs L2 regularization and coefficient paths
+   - Decision boundary geometry and probability interpretation
+   - Model evaluation: Log Loss, ROC-AUC, Calibration, Precision/Recall
+   - Accuracy paradox and imbalanced data considerations
 
 *(More topics coming soon, including Gradient Descent, PCA, Regularization Techniques, Logistic Regression, Decision Trees, Random Forests, Gradient Boosting, Neural Networks, and more!)*  
 
