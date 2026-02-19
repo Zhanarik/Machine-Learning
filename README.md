@@ -32,8 +32,17 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - Decision boundary geometry and probability interpretation
    - Model evaluation: Log Loss, ROC-AUC, Calibration, Precision/Recall
    - Accuracy paradox and imbalanced data considerations
+  
+3. **Naive Bayes Classifier**
+   - Gaussian Naive Bayes theory and derivation  
+   - Step-by-step log-odds calculation example, showing how posterior probabilities are computed  
+   - Comparison with Logistic Regression to highlight generative vs discriminative modeling  
+   - Small dataset example with calculation of priors, likelihoods, and decision boundary  
+   - Code examples with `sklearn` including hyperparameter tuning (alpha)  
+   - Visualization of decision boundaries and probability outputs for better intuition  
+   - Discussion of assumptions (feature independence, Gaussian distribution) and when NB works well
 
-*(More topics coming soon, including Gradient Descent, PCA, Regularization Techniques, Logistic Regression, Decision Trees, Random Forests, Gradient Boosting, Neural Networks, and more!)*  
+*(More topics coming soon, including Gradient Descent, PCA, Regularization Techniques, Decision Trees, Random Forests, Gradient Boosting, Neural Networks, and more!)*  
 
 ---
 ## ✨ Note to Users
