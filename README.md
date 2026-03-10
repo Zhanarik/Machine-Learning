@@ -41,6 +41,18 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - Code examples with `sklearn` including hyperparameter tuning (alpha)  
    - Visualization of decision boundaries and probability outputs for better intuition  
    - Discussion of assumptions (feature independence, Gaussian distribution) and when NB works well
+  
+4. **Support Vector Machines — From Intuition to Kernels**
+   - Linear classification and decision boundaries
+   - Maximum margin intuition
+   - Hard and soft margin SVMs with C parameter
+   - Support vectors and their role in predictions
+   - Limitations of linear boundaries on nonlinear data
+   - Feature transformations for separability
+   - Kernel trick for efficient nonlinear classification
+   - Polynomial and RBF kernels
+   - Dual optimization with Lagrange multipliers
+   - Sparsity and why only support vectors matter
 
 *(More topics coming soon, including Gradient Descent, PCA, Regularization Techniques, Decision Trees, Random Forests, Gradient Boosting, Neural Networks, and more!)*  
 
