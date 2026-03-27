@@ -53,8 +53,20 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - Polynomial and RBF kernels
    - Dual optimization with Lagrange multipliers
    - Sparsity and why only support vectors matter
+4. **Decision Trees & Ensemble Methods — From Single Trees to State-of-the-Art**
+   - Decision Trees: Gini impurity calculation and interpretation
+   - Information gain and optimal split selection
+   - Manual tree-building with recursive splitting
+   - Bias-variance tradeoff and tree depth regularization via cross-validation
+   - The instability problem: demonstrating how small data changes alter tree structure
+   - Bagging: mathematical derivation of variance reduction for correlated trees
+   - Random Forest: bootstrap sampling and feature subsampling to decorrelate trees
+   - Gradient Boosting as gradient descent in function space: Fₘ₊₁(x) = Fₘ(x) - η·∇_F L(Fₘ(x))
+   - AdaBoost manual implementation with sample weight updates
+   - XGBoost innovations: second-order optimization (gᵢ, hᵢ), regularized objective (γT + ½λ||w||² + α||w||₁), and handling of missing values
+   - Comprehensive model comparison: Single Tree vs Random Forest vs XGBoost across Accuracy, Precision, Recall, and F1-score
 
-*(More topics coming soon, including Gradient Descent, PCA, Regularization Techniques, Decision Trees, Random Forests, Gradient Boosting, Neural Networks, and more!)*  
+*(More topics coming soon!)*  
 
 ---
 ## ✨ Note to Users
