@@ -53,7 +53,8 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - Polynomial and RBF kernels
    - Dual optimization with Lagrange multipliers
    - Sparsity and why only support vectors matter
-4. **Decision Trees & Ensemble Methods — From Single Trees to State-of-the-Art**
+
+5. **Decision Trees & Ensemble Methods — From Single Trees to State-of-the-Art**
    - Decision Trees: Gini impurity calculation and interpretation
    - Information gain and optimal split selection
    - Manual tree-building with recursive splitting
@@ -65,6 +66,16 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - AdaBoost manual implementation with sample weight updates
    - XGBoost innovations: second-order optimization (gᵢ, hᵢ), regularized objective (γT + ½λ||w||² + α||w||₁), and handling of missing values
    - Comprehensive model comparison: Single Tree vs Random Forest vs XGBoost across Accuracy, Precision, Recall, and F1-score
+  
+6. **Regularizations - concept, formula and intuition**
+   - What is Regularization & Why Do We Need It?
+   - The Bias-Variance Tradeoff
+   - L2 Regularization (Ridge), L1 Regularization (Lasso)
+   - L1 vs L2: Geometric Intuition
+   - Elastic Net (L1 + L2)
+   - Regularization in Neural Networks: Dropout, Batch Normalization, Weight Decay, Early Stopping, Data Augmentation
+   - Bayesian Interpretation
+   - Interview Questions & Answers
 
 *(More topics coming soon!)*  
 
