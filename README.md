@@ -53,21 +53,8 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - Polynomial and RBF kernels
    - Dual optimization with Lagrange multipliers
    - Sparsity and why only support vectors matter
-
-5. **Decision Trees & Ensemble Methods — From Single Trees to State-of-the-Art**
-   - Decision Trees: Gini impurity calculation and interpretation
-   - Information gain and optimal split selection
-   - Manual tree-building with recursive splitting
-   - Bias-variance tradeoff and tree depth regularization via cross-validation
-   - The instability problem: demonstrating how small data changes alter tree structure
-   - Bagging: mathematical derivation of variance reduction for correlated trees
-   - Random Forest: bootstrap sampling and feature subsampling to decorrelate trees
-   - Gradient Boosting as gradient descent in function space: Fₘ₊₁(x) = Fₘ(x) - η·∇_F L(Fₘ(x))
-   - AdaBoost manual implementation with sample weight updates
-   - XGBoost innovations: second-order optimization (gᵢ, hᵢ), regularized objective (γT + ½λ||w||² + α||w||₁), and handling of missing values
-   - Comprehensive model comparison: Single Tree vs Random Forest vs XGBoost across Accuracy, Precision, Recall, and F1-score
   
-6. **Regularizations - concept, formula and intuition**
+5. **Regularizations - concept, formula and intuition**
    - What is Regularization & Why Do We Need It?
    - The Bias-Variance Tradeoff
    - L2 Regularization (Ridge), L1 Regularization (Lasso)
@@ -76,6 +63,36 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - Regularization in Neural Networks: Dropout, Batch Normalization, Weight Decay, Early Stopping, Data Augmentation
    - Bayesian Interpretation
    - Interview Questions & Answers
+  
+6. **Decision Trees — Splitting, Pruning, and Complexity Control**
+   - Impurity measures: Gini, Entropy, and MSE with mathematical derivations
+   - Step-by-step manual split calculation with Gini gain at every threshold
+   - Decision boundary visualization at increasing depths (underfitting → overfitting)
+   - Tree structure visualization and node interpretation
+   - Pre-pruning hyperparameters (max_depth, min_samples_split, min_samples_leaf)
+   - Cost-complexity post-pruning with alpha path and cross-validation
+   - Strengths and weaknesses: interpretability vs high variance
+
+7. **Random Forest — Bagging and Feature Randomness**
+   - Bias-variance decomposition and why single trees are unstable
+   - Bootstrap sampling and the bagging framework
+   - Feature randomness: decorrelating trees to reduce variance (with correlation formula)
+   - Comparison of Single Tree vs Bagging vs Random Forest decision boundaries
+   - Out-of-Bag (OOB) error as free validation (with the 1/e ≈ 37% derivation)
+   - Number of trees vs performance (diminishing returns, no overfitting)
+   - Feature importance: MDI (Gini-based) vs Permutation Importance with bias discussion
+
+8. **Boosting — AdaBoost, Gradient Boosting, and XGBoost**
+   - AdaBoost algorithm: sample re-weighting, learner weights, and weighted vote
+   - AdaBoost from scratch with sample weight evolution visualization
+   - Gradient Boosting algorithm: fitting residuals as negative gradients
+   - Gradient Boosting from scratch (regression) with residual shrinkage visualization
+   - Gradient Boosting for classification: log-odds, sigmoid, and pseudo-residuals
+   - Learning rate (shrinkage) tradeoff: small η + many trees = best generalization
+   - XGBoost enhancements: regularized objective, second-order approximation, column subsampling
+   - Side-by-side decision boundary and learning curve comparisons across all methods
+   - When to use which: practical decision guide for interviews
+   - Key hyperparameters cheat sheet for Decision Trees, Random Forest, and Gradient Boosting
 
 *(More topics coming soon!)*  
 
