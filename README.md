@@ -94,6 +94,29 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
    - When to use which: practical decision guide for interviews
    - Key hyperparameters cheat sheet for Decision Trees, Random Forest, and Gradient Boosting
 
+9. **Dimensionality Reduction — PCA, t-SNE, UMAP and Beyond**
+   * Why reduce dimensions: curse of dimensionality, visualization, noise removal
+   * PCA: covariance matrix, eigendecomposition, explained variance ratio
+   * Step-by-step PCA from scratch with NumPy
+   * Scree plot and choosing the number of components
+   * t-SNE: perplexity, KL divergence, and crowding problem
+   * UMAP: graph-based approach and comparison with t-SNE
+   * Side-by-side visualization comparisons on real datasets
+   * When to use which: practical decision guide
+
+10. **Clustering — K-Means, Hierarchical, DBSCAN, GMM, and Spectral**
+    * What is clustering: types (partitional, hierarchical, density-based, model-based)
+    * K-Means: intuitive explanation, math (WCSS objective, convergence proof), K-Means++ initialization
+    * K-Means from scratch implementation with NumPy
+    * Choosing K: Elbow method, Silhouette analysis, Calinski-Harabasz, Davies-Bouldin
+    * Hierarchical clustering: linkage criteria (single, complete, average, Ward) with dendrograms
+    * DBSCAN: core/border/noise points, eps selection via k-distance plot
+    * Gaussian Mixture Models: EM algorithm, covariance types, BIC/AIC model selection
+    * Spectral clustering: graph Laplacian intuition and non-convex shape handling
+    * Evaluation metrics: Silhouette, ARI, NMI (internal vs external)
+    * Full algorithm comparison across challenging datasets (moons, circles, anisotropic)
+    * Interview questions and answers
+
 *(More topics coming soon!)*  
 
 ---
