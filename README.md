@@ -116,8 +116,27 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
     * Evaluation metrics: Silhouette, ARI, NMI (internal vs external)
     * Full algorithm comparison across challenging datasets (moons, circles, anisotropic)
     * Interview questions and answers
+11. **Neural Networks — From Perceptron to LSTMs**
+    * Perceptron: single neuron model, learning algorithm, and the XOR limitation
+    * Multi-Layer Perceptron (MLP): Universal Approximation Theorem, solving XOR from scratch
+    * Backpropagation: full chain-rule derivation, computational graphs, and gradient checking
+    * Activation functions: Sigmoid, Tanh, ReLU, Leaky ReLU, ELU, GELU, Swish — comparison and derivatives
+    * Vanishing and exploding gradients: causes, simulation, and solutions (skip connections, proper initialization)
+    * Weight initialization: Xavier/Glorot vs He/Kaiming with activation distribution visualization
+    * Optimizers: SGD, Momentum, Nesterov, Adam — update equations and trajectory comparison on Rosenbrock surface
+    * Learning rate scheduling: step decay, cosine annealing, warm-up, one-cycle policy
+    * Batch Normalization: algorithm, training vs inference, LayerNorm/GroupNorm/RMSNorm alternatives
+    * Training pipeline: complete training loop, loss functions (MSE, cross-entropy, focal, contrastive), hyperparameter tuning
+    * Overfitting and regularization: L1/L2, Dropout (from scratch), early stopping, label smoothing, data augmentation
+    * Transfer learning: feature extraction, fine-tuning, LoRA and parameter-efficient methods
+    * CNNs: convolution from scratch, output size formula, landmark architectures (LeNet → ResNet → ViT)
+    * RNNs: vanilla RNN limitations, Backpropagation Through Time (BPTT), gradient flow analysis
+    * LSTMs: gate equations (forget, input, output), cell state as gradient highway, GRU comparison
+    * Sequence models: Bidirectional RNNs, Seq2Seq, Attention mechanism, and why Transformers won
+    * Full spiral dataset classification example trained from scratch with Adam optimizer
+    * Interview rapid-fire Q&A and preparation checklist
 
-*(More topics coming soon!)*  
+ 
 
 ---
 ## ✨ Note to Users
